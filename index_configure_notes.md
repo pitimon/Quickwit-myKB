@@ -1,6 +1,9 @@
 >> 20241020
 
 ## ปัญหาเกี่ยวกับ bucket limit หรือต้องการ optimize การ query สำหรับข้อมูลขนาดใหญ่ใน Quickwit
+![current](./img/qw-index-20241020.png)
+- Log lines: 260M docs 
+- Data size: ~76GB
 
 ข้อเสนอเบื้องต้น:
 
