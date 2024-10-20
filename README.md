@@ -4,6 +4,7 @@
 - [Log Management](https://quickwit.io/docs/log-management/overview)
 
 ---
-- [การเพิ่ม bucket limit หรือวิธีการ optimize การ query สำหรับข้อมูลขนาดใหญ่](./index_configure_notes.md)
+- ไม่ได้เปิดใช้ดัชนีตำแหน่งคำ (position indexing) ทำให้ไม่สามารถใช้ phrase query ได้
+- [การเพิ่ม bucket limit หรือวิธีการ optimize การ query สำหรับข้อมูลขนาดใหญ่](./bucket%20limit.md)
 
 ---
