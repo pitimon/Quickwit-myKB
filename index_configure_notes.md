@@ -2,7 +2,7 @@
 
 ## ปัญหาเกี่ยวกับ bucket limit หรือต้องการ optimize การ query สำหรับข้อมูลขนาดใหญ่ใน Quickwit
 
-ข้อเสนอแนะเบื้องต้น:
+ข้อเสนอเบื้องต้น:
 
 1. ปรับแต่ง index configuration:
    - ตรวจสอบและปรับ `indexing_settings` ใน config file เช่น เพิ่ม `max_merge_factor` หรือ `min_num_segments` เพื่อควบคุมขนาดของ segment
@@ -38,8 +38,9 @@
 
 ---
 
-## ปัญหานี้น่าจะเกี่ยวข้องกับการ configure index มากกว่าตัว Quickwit engine โดยตรง จาก [configuration](./misc/old_index.md) มีข้อเสนอแนะดังนี้:
-![json](./img/nro-index-old.png)
+## ปัญหานี้เกี่ยวข้องกับการ configure index มากกว่าตัว Quickwit engine โดยตรง 
+- จาก [configuration](./misc/old_index.md) มีข้อเสนอแนะดังนี้:
+- ![json](./img/nro-index-old.png)
 
 1. ปรับ `indexing_settings`:
 
@@ -115,7 +116,7 @@
 
 ---
 
-## index configuration ตามข้อเสนอแนะทั้งหมด:
+## ปรับปรุง index configuration ให้สอดคล้อง:
 ![json](./img/nro-index-new.png)
 
 ```json
